@@ -1,0 +1,35 @@
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  padding: 0 50px;
+  border-bottom: 2px solid gray;
+}
+
+.content {
+  display: flex;
+  padding-left: 50px;
+  align-items: ;
+  text-align: left;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}

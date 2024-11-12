@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  gap: 75px;
+  justify-content: flex-end;
+  margin-right: 200px;
+  margin-top: 90px;
+}
+
+.navbar a {
+  padding: 10px 20px;
+  color: white;
+  background-color: #555;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #777;
+}
+.navbar .active {
+  color: rgb(72, 217, 169); /* Highlight on hover or active */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
